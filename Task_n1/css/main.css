@@ -32,7 +32,8 @@ body, h1, h2, h3, h4, h5, h6, textarea, ul, li, a, span, div, input {
   line-height: 1.43; }
 
 body {
-  overflow: auto; }
+  overflow: auto;
+	background-color: #fff;}
 
 div {
   display: block; }
