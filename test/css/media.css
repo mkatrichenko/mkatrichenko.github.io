@@ -1,0 +1,145 @@
+@media only screen and (max-width: 900px) {
+  .team .team-slider {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; } }
+
+@media only screen and (max-width: 768px) {
+  .menu__icon {
+    display: inline-block; }
+  .header {
+    height: auto; }
+    .header .bg {
+      height: 100%; }
+    .header .bg_overlay {
+      height: 100%; }
+    .header .panel .menu-container {
+      width: 150px; }
+      .header .panel .menu-container .menu__icon {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end; }
+      .header .panel .menu-container .menu {
+        width: 0; }
+        .header .panel .menu-container .menu__item {
+          height: 0; }
+    .header .panel .menu-container.menu_state_open {
+      margin-bottom: 150px; }
+      .header .panel .menu-container.menu_state_open .menu {
+        width: 150px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; }
+        .header .panel .menu-container.menu_state_open .menu__item {
+          height: auto;
+          width: 100%; }
+    .header .banner {
+      -webkit-transform: translateY(-70px);
+      transform: translateY(-70px);
+      margin-top: 0; }
+      .header .banner .text_block .title {
+        font-size: 48px; }
+      .header .banner .text_block .description {
+        font-size: 14px; }
+  .about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 65px;
+    padding-right: 65px; }
+    .about .pic-block {
+      width: 100%;
+      margin: 0;
+      padding: 50px 0; }
+      .about .pic-block .avatar {
+        margin-top: 25px; }
+    .about .text-block {
+      margin-top: 50px;
+      width: 100%; }
+  .service {
+    padding: 0 65px;
+    -ms-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse; }
+    .service .container {
+      width: 100%; }
+      .service .container .card {
+        width: 50%; }
+    .service .title-block {
+      width: 100%; }
+  .works .works-slider {
+    width: 70%; }
+    .works .works-slider .slick-prev {
+      left: -50px; }
+    .works .works-slider .slick-next {
+      right: -50px; } }
+
+@media only screen and (max-width: 600px) {
+  .header .panel .menu {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .works .works-slider {
+    width: 75%; }
+    .works .works-slider .slide-container {
+      width: 100%; }
+    .works .works-slider .slick-prev {
+      left: -25px; }
+    .works .works-slider .slick-next {
+      right: -25px; }
+  .team .team-slider {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .team .team-slider .container {
+      width: 80%; }
+  .map-block .contact-form input {
+    width: 100%; }
+  .footer {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 30px 0; } }
+
+@media only screen and (max-width: 480px) {
+  .service {
+    padding: 0 65px;
+    -ms-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse; }
+    .service .container {
+      width: 100%; }
+      .service .container .card {
+        width: 100%; }
+    .service .title-block {
+      width: 100%; }
+  .works {
+    padding: 50px 25px; }
+    .works .works-slider .slide-container {
+      width: 100%;
+      min-width: inherit;
+      height: auto; }
+    .works .works-slider .slick-prev {
+      display: none; }
+    .works .works-slider .slick-next {
+      display: none; } }
+
+@media only screen and (max-width: 400px) {
+  .works {
+    padding: 50px 25px; }
+    .works .works-slider {
+      width: 100%; }
+      .works .works-slider .slide-container {
+        width: 100%; }
+      .works .works-slider .slick-prev {
+        display: none; }
+      .works .works-slider .slick-next {
+        display: none; } }

@@ -1,0 +1,11 @@
+.text-block .title {
+  color: #242424;
+  font-family: "Roboto - Black";
+  font-size: 50px;
+  font-weight: 400; }
+
+.text-block .description {
+  color: #242424;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300; }
