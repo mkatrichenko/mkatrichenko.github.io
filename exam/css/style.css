@@ -158,6 +158,10 @@
   justify-content: space-between;
 }
 
+.header-bottom .wrapper .menu {
+  display: none;
+}
+
 .header-bottom .wrapper .menu .menu__icon {
   display: none;
 }
@@ -935,10 +939,12 @@
 }
 
 .footer .wrapper .copyright p {
+  display: inline;
   margin: 0;
 }
 
 .footer .wrapper .copyright a {
+  display: inline;
   color: #f7f8f8;
   font-size: 12px;
   font-weight: 400;
@@ -1146,12 +1152,16 @@ form label.selectGeneral input[type="radio"]:not(:checked) ~ div > input[type="r
     padding: 0 15px;
   }
 
+  .header-bottom .wrapper .menu {
+    width: 35px;
+  }
+
   .header-bottom .wrapper .menu .menu__icon {
     display: block;
-    width: 50px;
+    width: 35px;
     height: 50px;
     cursor: pointer;
-    margin-right: 35px;
+    text-align: right;
   }
 
   .header-bottom .wrapper .menu .menu__icon svg {
@@ -1167,7 +1177,7 @@ form label.selectGeneral input[type="radio"]:not(:checked) ~ div > input[type="r
 
   .header-bottom .wrapper .menu_state_open .menu__container {
     position: absolute;
-    right: 50px;
+    right: 25px;
     top: 50px;
     display: flex;
     flex-direction: column;
@@ -1209,6 +1219,7 @@ form label.selectGeneral input[type="radio"]:not(:checked) ~ div > input[type="r
 
   .banner {
     padding: 15px;
+    box-sizing: border-box;
   }
 
   .banner .wrapper .content {
